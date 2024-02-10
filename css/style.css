@@ -1,0 +1,274 @@
+body {
+	max-width: 1280px;
+	float: none;
+	margin: auto;
+	padding: 0px;
+}
+h1, h2, h3, h4, h5, h6 {
+	padding: 10px;
+	font-family: 'Bona Nova', serif;
+}
+p {
+	padding: 10px;
+	font-family: 'Crimson Text', serif;
+	font-size: 1.3em;
+}
+a {
+	font-family: 'Bona Nova', serif;
+	font-size: 1.3em;
+	text-decoration: none;
+	display:inline-block;
+}
+header {
+	width: 100%;
+	display: inline-block;
+	padding: 0px;
+}
+
+.large {
+	font-size: 32px;
+}
+
+.medium {
+	font-size: 20px;
+}
+
+.typewriter h1 {
+	width: auto;
+	display: inline-block;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	border-right: .15em solid transparent; /* The typwriter cursor */
+	white-space: nowrap; /* Keeps the content on a single line */
+	margin: auto; /* Gives that scrolling effect as the typing happens */
+	letter-spacing: .15em; /* Adjust as needed */
+	animation: 
+		typing 3.5s steps(40, end),
+		blink-caret .75s step-end 8;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { max-width: 0 }
+  to { max-width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #ffcccc; }
+}
+	
+main {
+	width: 100%;
+	float: center;
+	display: block;
+	min-height: 600px;
+	background-color: #fff;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.column {
+	float: left;
+	width: 25%;
+	padding: 5px;
+}
+
+.column2 {
+	float: left;
+	width: 100%;
+	padding: 5px;
+}
+
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.first-heading h1{
+	font-size: 2.4rem;
+	text-align: center;
+	color: #2b2b2b;
+	font-weight: 600;
+	padding:0px;
+}
+
+#blog {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding:0px;
+	border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.blog-heading {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.blog-heading h1 {
+	font-size: 2.4rem;
+	color: #2b2b2b;
+	font-weight: 600;
+	padding: 0px;
+}
+
+.blog-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0px;
+	flex-wrap: wrap;
+}
+
+.blog-box {
+	width: 350px;
+	background-color: #fff;
+	border: 1px solid #ececec;
+	margin: 20px;
+}
+
+.blog-img {
+	width: 100%;
+	height: auto;
+}
+
+.blog-img img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.blog-text {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.blog-text span {
+	color: #ff7f7f;
+	font-size: 0.9rem;
+}
+
+.blog-text .blog-title {
+	font-size: 1.3rem;
+	font-weight: 500;
+	color: #272727;
+}
+
+.blog-text .blog-title:hover {
+	color: #ff7f7f;
+	transition: all ease 0.3s;
+}
+
+.blog-text p {
+	color: #9b9b9b;
+	font-size: 0.9rem;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	margin: 20px 0px;
+}
+
+.blog-text a {
+	color: #0f0f0f;
+}
+
+.blog-text a:hover {
+	color: #ff7f7f;
+	transition: all ease 0.3s;
+}
+
+footer {
+	width: 100%;
+	display: inline-block;
+	background-color: #333;
+}
+.left-footer {
+	width: 33%;
+	float: left;
+	display: block;
+	min-height: 200px;
+	background-color: #333;
+	color: #fff;
+}
+.left-footer p {
+	padding: 0px;
+	margin: 4px;
+}
+.left-footer a {
+	color: #e8e8e8;
+}
+.left-footer a:hover {
+	color: #ff7f7f;
+}
+.center-footer {
+	width: 33%;
+	float: left;
+	display: block;
+	min-height: 200px;
+	background-color: #333;
+	color: #fff;
+}
+.right-footer {
+	width: 33%;
+	float: right;
+	display: block;
+	min-height: 200px;
+	background-color: #333;
+	color: #fff;
+}
+.copyright {
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+}
+
+/* Menu CSS */
+.topnav {
+  background-color: #ffcccc;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+	
+	
+	

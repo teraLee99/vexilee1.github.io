@@ -1,0 +1,232 @@
+body {
+	max-width: 1280px;
+	float: none;
+	margin: auto;
+	padding: 0px;
+	background-attachment: fixed;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 10px;
+	font-family: 'Bona Nova', serif;
+}
+p {
+	padding: 10px;
+	font-family: 'Crimson Text', serif;
+	font-size: 1.3em;
+}
+a {
+	font-family: 'Bona Nova', serif;
+	font-size: 1.3em;
+	display: inline-block;
+	color: black;
+}
+a:hover {
+	color:#ff7f7f;
+}
+header {
+	width: 100%;
+	display: inline-block;
+	padding: 0px;
+}
+
+
+.blog-post {
+	max-width: 1280px;
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	float: left;
+}
+/* Each post as a box */
+
+.blog-entry {
+	border: 3px solid #888;
+	margin-bottom: 20px;
+	background: #f9fbfd;
+	text-align: center;
+	padding: 10px;
+}
+
+.blog-entry img {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	width: auto;
+	height: 300;
+	padding: 50px;
+	
+}
+
+.blog-post-title {
+	padding: 0px;
+
+}
+
+.blog-post-date {
+	color: #ff7f7f;
+}
+
+.blog-post-content {
+	margin: 0 auto;
+	display: block;
+	line-height: 1.3em;
+	
+}
+
+.side-content {
+	max-width: 1280px;
+	width: 25%;
+	display: inline-block;
+	margin: 0 auto;
+	float: right;
+	text-align: center;
+	border: 3px solid #888;
+	margin-bottom: 9px;
+	margin-right: 4px;
+	background: #f3f6f4;
+}
+
+.aside {
+	max-width: 800px;
+	margin: 0 auto;
+	width: 40%;
+	text-align: right;
+	float: right;
+}
+.videos {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 40%;
+	border: 3px solid #888;
+	margin-bottom: 9px;
+	margin-right: 4px;
+	background: #f3f6f4;
+	padding: 40px;
+	padding-top: 5px;
+}
+
+.videos img {
+	width: 100%;
+	transition: transform .2s;
+    margin:0 auto;
+}
+
+.videos img:hover{
+    transform:scale(1.2);
+}
+
+.shop {
+	display: inline-block;
+	text-align: center;
+	width: 40%;
+	margin: 0 auto;
+	border: 3px solid #888;
+	margin-bottom: 9px;
+	margin-right: 4px;
+	background: #f3f6f4;
+	padding: 40px;
+	padding-top: 5px;
+}
+
+.shop img {
+	transition: transform .2s;
+}
+
+.shop img:hover {
+	transform: scale(1.2);
+}
+
+.socials img {
+	transition: transform .2s;
+}
+
+.socials img:hover {
+	transform: scale(1.2);
+}
+
+/* Read More */
+
+
+
+/* Menu CSS */
+.topnav {
+  background-color: #ffcccc;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+footer {
+	width: 100%;
+	display: inline-block;
+	background-color: #333;
+}
+.left-footer {
+	width: 33%;
+	float: left;
+	display: block;
+	min-height: 200px;
+	background-color: #333;
+	color: #fff;
+}
+.left-footer p {
+	padding: 0px;
+	margin: 4px;
+}
+.left-footer a {
+	color: #e8e8e8;
+}
+.left-footer a:hover {
+	color: #ff7f7f;
+}
+.center-footer {
+	width: 33%;
+	float: left;
+	display: block;
+	min-height: 200px;
+	background-color: #333;
+	color: #fff;
+}
+.right-footer {
+	width: 33%;
+	float: right;
+	display: block;
+	min-height: 200px;
+	background-color: #333;
+	color: #fff;
+	text-decoration: none;
+}
+
+.copyright {
+	width: 100%;
+	display: inline-block;
+}
