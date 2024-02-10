@@ -5,7 +5,7 @@
 		width: 100%;
 	}
 	.top-img {
-		display: none;
+		max-width: 100%;
 	}
 }
 
