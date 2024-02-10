@@ -1,16 +1,4 @@
-@media (max-width: 480px) {
-	p {
-	width: 100%;
-	font-size: 16px;
-	}
-	h1, h2, h3, h4, h5, h6 {
-		width: 100%;
-		font-size: 16px;
-	}
-	body {
-	display: block;
-	}
-}
+
 
 body {
 	max-width: 1280px;
