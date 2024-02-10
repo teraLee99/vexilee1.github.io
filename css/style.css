@@ -1,3 +1,11 @@
+/* Mobile Optimization */
+@media (max-width:720px) {
+	.topnav {
+		font-size: 1.5rem;
+		width: 100%;
+	}
+}
+
 body {
 	max-width: 1280px;
 	float: none;
