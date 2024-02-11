@@ -1,25 +1,9 @@
 /* Mobile Optimization */
 @media screen and (max-width: 480px) {
-	.body {
-		width: 100%;
-		display: flex;
-		align: center;
-	}
-	.body background {
-		display: none;
-		background-color: #ffcccc;
-	}
-	.blog-entry {
-		border: 2px solid #888;
-		margin-bottom: 20px;
-		background: #f9fbfd;
-		text-align: center;
-		padding: 2px;	
-	}
-	.blog-entry img {
-		width: 240px;
-		text-align: center;
-		display: flex;
+	.blog-post-entry img {
+		width: auto;
+		height: auto;
+		display: inline-block;
 	}
 }
 
