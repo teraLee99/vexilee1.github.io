@@ -10,6 +10,10 @@
 		width: 100%;
 		
 	}
+	.blog-entry img {
+		width: 50%;
+		align: center;
+	}
 	.side-content {
 		width: 100%;
 		
