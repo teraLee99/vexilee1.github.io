@@ -1,6 +1,6 @@
 /* Mobile Optimization */
 @media screen and (max-width: 480px) {
-	.blog-post-entry img {
+	.blog-entry img {
 		width: auto;
 		height: auto;
 		display: inline-block;
