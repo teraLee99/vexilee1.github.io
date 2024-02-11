@@ -1,26 +1,8 @@
 /* Mobile Optimization */
 @media screen and (max-width: 720px;) {
-	.top {
+	.body {
 		width: 100%;
-	}
-	.blog-header {
-		width: 100%;
-	}
-	.blog-post {
-		width: 100%;
-		
-	}
-	.blog-entry img {
-		width: 50%;
-		align: center;
-	}
-	.side-content {
-		width: 100%;
-		
-	}
-	.aside {
-		width: 100%;
-		
+		display: inline-block;
 	}
 ]
 
