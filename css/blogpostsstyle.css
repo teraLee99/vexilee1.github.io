@@ -4,7 +4,13 @@
 		width: 100%;
 		display: inline-block;
 		align: center;
+	}
+	.body background {
+		display: none;
 		background-color: #ffcccc;
+	}
+	.header {
+		width: 100%;
 	}
 	.blog-entry {
 		border: 2px solid #888;
