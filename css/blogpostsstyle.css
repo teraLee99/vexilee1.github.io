@@ -1,12 +1,3 @@
-/* Mobile Optimization */
-@media screen and (max-width: 720px) {
-	.blog-entry img {
-		width: 100%;
-		height: auto;
-		display: flex;
-	}
-}
-
 body {
 	max-width: 1280px;
 	float: none;
