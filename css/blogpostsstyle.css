@@ -1,5 +1,18 @@
 /* Mobile Optimization */
-
+@media screen and (max-width: 480px) {
+	.body {
+		width: 100%;
+		display: inline-block;
+		align: center;
+	}
+	.blog-entry {
+		border: 2px solid #888;
+		margin-bottom: 20px;
+		background: #f9fbfd;
+		text-align: center;
+		padding: 2px;	
+	}
+}
 
 body {
 	max-width: 1280px;
