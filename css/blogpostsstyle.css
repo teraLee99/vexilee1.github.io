@@ -1,9 +1,9 @@
 /* Mobile Optimization */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 720px) {
 	.blog-entry img {
-		width: auto;
+		width: 100%;
 		height: auto;
-		display: inline-block;
+		display: flex;
 	}
 }
 
