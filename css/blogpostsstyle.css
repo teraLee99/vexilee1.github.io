@@ -4,6 +4,7 @@
 		width: 100%;
 		display: inline-block;
 		align: center;
+		background-color: #ffcccc;
 	}
 	.blog-entry {
 		border: 2px solid #888;
