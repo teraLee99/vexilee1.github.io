@@ -85,14 +85,7 @@ main {
 	padding: 5px;
 }
 
-.column2 img {
-	transition: transform .2s;
-    	margin:0 auto;
-}
 
-.column2 img:hover {
-	transform:scale(1.2);
-}
 
 .row::after {
 	content: "";
