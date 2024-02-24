@@ -100,7 +100,7 @@ main {
 }
 
 .shop img {
-	width: 100%;
+	width: 33%;
 	transition: transform .2s;
     	margin:0 auto;
 }
