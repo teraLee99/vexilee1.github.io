@@ -23,10 +23,6 @@ a {
 	display:inline-block;
 }
 
-a:hover {
-	color: #ff7f7f;
-}
-
 header {
 	width: 100%;
 	display: inline-block;
@@ -123,6 +119,7 @@ main {
 }
 
 .blog-heading a:hover {
+	color: #ff7f7f;
 	transition: all ease 0.3s;
 }
 
