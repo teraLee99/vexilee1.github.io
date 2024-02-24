@@ -178,6 +178,11 @@ main {
 	transition: all ease 0.3s;
 }
 
+#shop-preview a:hover {
+	color: #ff7f7f;
+	transition: all ease 0.3s;
+}
+
 #shop-preview img {
 	transition: transform .2s;
    	margin:0 auto;
