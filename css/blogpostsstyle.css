@@ -3,7 +3,7 @@ body {
 	float: none;
 	margin: auto;
 	padding: 0px;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	background-repeat: no-repeat;
 }
 
