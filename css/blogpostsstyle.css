@@ -117,7 +117,7 @@ header {
     transform:scale(1.2);
 }
 
-.shop {
+.shop .pets {
 	display: inline-block;
 	text-align: center;
 	width: 40%;
