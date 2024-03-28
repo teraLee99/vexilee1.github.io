@@ -3,6 +3,9 @@ body {
 	float: none;
 	margin: auto;
 	padding: 0px;
+}
+
+background {
 	background-repeat: no-repeat;
 	background-attachment:fixed;
 }
