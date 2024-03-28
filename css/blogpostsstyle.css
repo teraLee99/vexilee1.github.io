@@ -3,6 +3,8 @@ body {
 	float: none;
 	margin: auto;
 	padding: 0px;
+	background-repeat: no-repeat;
+	background-attachment: static;
 }
 
 h1, h2, h3, h4, h5, h6 {
