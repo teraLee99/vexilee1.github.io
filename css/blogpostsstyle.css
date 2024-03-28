@@ -3,8 +3,8 @@ body {
 	float: none;
 	margin: auto;
 	padding: 0px;
+	background-image: url("images/blog/IMG_9368.jpg");
 	background-repeat: no-repeat;
-	background-attachment: scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
