@@ -165,6 +165,7 @@ header {
 
 .socials img {
 	transition: transform .2s;
+	text-align: center;
 }
 
 .socials img:hover {
