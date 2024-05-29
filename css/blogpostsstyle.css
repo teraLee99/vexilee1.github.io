@@ -1,15 +1,8 @@
 /* Mobile Optimization */
-@media (min-width: 900px) {
-	body {
-		height: 100vh;
-		overflow: hidden;
-	}
-	.blog-entry img {
-		width: 200;
-		height: 140;
-		padding: 5px;
-	}
-
+@media screen and (max-width: 480px) {
+    .blog-entry img {
+         width: 400px;
+    }
 }
 
 body {
