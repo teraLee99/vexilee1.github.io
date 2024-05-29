@@ -2,6 +2,7 @@
 @media (min-width: 900px) {
 	body {
 		height: 100vh;
+		overflow: hidden;
 	}
 	.blog-entry img {
 		display: block;
