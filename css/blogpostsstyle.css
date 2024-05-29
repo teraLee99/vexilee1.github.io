@@ -45,6 +45,11 @@ header {
 	text-align: center;
 	float: left;
 }
+
+.blog-post img {
+	width: 580;
+	height: 340;
+}
 /* Each post as a box */
 
 .blog-entry {
