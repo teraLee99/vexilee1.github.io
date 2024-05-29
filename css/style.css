@@ -1,11 +1,17 @@
 /* Mobile Optimization */
+@media (min-width: 900px) {
+	body {
+		height: 100vh;
+	}
 
+}
 
 body {
 	max-width: 1280px;
 	float: none;
 	margin: auto;
 	padding: 0px;
+	min-height: 100vh;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 10px;
