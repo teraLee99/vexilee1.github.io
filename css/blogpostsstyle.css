@@ -61,9 +61,6 @@ header {
 	margin: 0 auto;
 	display: block;
 	text-align: center;
-	width: auto;
-	height: 300;
-	padding: 50px;
 	object-fit: scale-down; 
 	max-width: 100%;
 	
