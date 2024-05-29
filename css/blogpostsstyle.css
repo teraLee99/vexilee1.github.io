@@ -58,14 +58,13 @@ header {
 }
 
 .blog-entry img {
-	margin: 0 auto;
 	display: block;
 	width: auto; 
 	height: 300; 
 	padding: 50px;
 	text-align: center;
 	object-fit: scale-down; 
-	max-width: 50%;
+	max-width: 500px;
 	
 }
 
