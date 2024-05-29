@@ -46,10 +46,6 @@ header {
 	float: left;
 }
 
-img {
-	width: 580px;
-	height: 340px;
-}
 /* Each post as a box */
 
 .blog-entry {
@@ -58,6 +54,10 @@ img {
 	background: #f9fbfd;
 	text-align: center;
 	padding: 10px;
+}
+
+.blog-entry img {
+	text-align: right;
 }
 
 .blog-post-title {
