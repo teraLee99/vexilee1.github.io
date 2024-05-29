@@ -5,7 +5,8 @@
 		overflow: hidden;
 	}
 	.blog-entry img {
-		max-width: 50%;
+		object-fit: scale-down; 
+		max-width: 100%
 	}
 
 }
