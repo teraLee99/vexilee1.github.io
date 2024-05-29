@@ -3,6 +3,9 @@
 	body {
 		height: 100vh;
 	}
+	.blog-entry img {
+		display: block;
+	}
 
 }
 
@@ -59,7 +62,6 @@ header {
 .blog-entry img {
 	margin: 0 auto;
 	text-align: center;
-	display: block;
 	width: auto;
 	height: 300;
 	padding: 50px;
