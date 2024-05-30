@@ -1,7 +1,7 @@
 /* Mobile Optimization */
 @media (max-width: 616px) { 
-   h1 {
-   font-size: 40px;
+   .typewriter {
+   font-size: 10px;
     }
 }
 
