@@ -1,8 +1,9 @@
 /* Mobile Optimization */
-@media (min-width: 900px) {
-	body {
-		height: 100vh;
-	}
+@media (min-width: 800px) {
+	h1, h2, h3, h4, h5, h6 {
+	padding: 10px;
+	font-family: 'Bona Nova', serif;
+}
 
 }
 
@@ -13,10 +14,10 @@ body {
 	padding: 0px;
 	min-height: 100vh;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 
 	padding: 10px;
 	font-family: 'Bona Nova', serif;
-}
+
 hl a:hover {
 	color: #ff7f7f;
 	transition: all ease 0.3s;
