@@ -32,6 +32,12 @@ header {
 	background-color: #fff;
 }
 
+.contact img {
+	height: auto;
+	width: 200px;
+	
+}
+
 .contact-text {
 	width: 600px;
 }
