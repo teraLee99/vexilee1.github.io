@@ -89,13 +89,9 @@ header {
 .aside {
 	max-width: 800px;
 	margin: 0 auto;
-	width: 40%;
+	width: 100%;
 	text-align: right;
 	float: right;
-}
-
-.aside h2 {
-	width: 100%;
 }
 
 .more-posts {
