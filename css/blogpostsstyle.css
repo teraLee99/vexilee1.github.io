@@ -99,6 +99,19 @@ header {
 	float: right;
 }
 
+.more-posts {
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	width: 40%;
+	border: 3px solid #888;
+	margin-bottom: 9px;
+	margin-right: 4px;
+	background: #f3f6f4;
+	padding: 40px;
+	padding-top: 5px;
+}
+
 .pets {
 	display: inline-block;
 	text-align: center;
