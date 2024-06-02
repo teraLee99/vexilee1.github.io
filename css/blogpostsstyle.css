@@ -94,6 +94,10 @@ header {
 	float: right;
 }
 
+.aside h2 {
+	width: 100%;
+}
+
 .more-posts {
 	display: inline-block;
 	text-align: center;
