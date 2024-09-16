@@ -71,6 +71,12 @@ header {
 	
 }
 
+.audio {
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+
 .side-content {
 	max-width: 800px;
 	width: 40%;
