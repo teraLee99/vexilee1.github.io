@@ -72,7 +72,8 @@ header {
 }
 
 .audio {
-	margin: 0 auto;
+	margin-bottom: 20px;
+	display: block;
 	text-align: center;
 	padding: 10px;
 }
