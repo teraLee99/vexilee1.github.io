@@ -4,9 +4,6 @@ body {
 	margin: auto;
 	padding: 0px;
 	min-height: 100vh;
-  	font-size: 16px;
-  	min-font-size: 12px;
-  	max-font-size: 20px;
 }
 h1, h2, h3, h4, h5, h6 {
 	padding: 10px;
