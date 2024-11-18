@@ -49,6 +49,7 @@ header {
 .typewriter h1 {
 	width: auto;
 	display: inline-block;
+	
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em solid transparent; /* The typwriter cursor */
 	white-space: nowrap; /* Keeps the content on a single line */
@@ -70,7 +71,7 @@ header {
   from, to { border-color: transparent }
   50% { border-color: #ffcccc; }
 }
-	
+
 main {
 	width: 100%;
 	float: center;
@@ -275,8 +276,3 @@ footer {
 .topnav .icon {
   display: none;
 }
-
-
-	
-	
-	
