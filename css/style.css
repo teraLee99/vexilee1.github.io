@@ -53,6 +53,8 @@ header {
 
 .typewriter h1 {
 	width: auto;
+	height: auto;
+    	min-height: 120px;
 	display: inline-block;
 	
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
