@@ -30,6 +30,10 @@ header {
 	display: inline-block;
 	padding: 0px;
 }
+img {
+	height: auto;
+	width: 100%;
+}
 
 * {
 	box-sizing: border-box;
