@@ -92,10 +92,7 @@ main {
 }
 
 .carousel img {
-	height: 340px;
-	object-fit: cover;
 	
-	width: calc(100% / 3);
 }
 
 .carousel img:first-child{
