@@ -36,7 +36,7 @@ header {
 }
 
 
-.typewriter {
+.typewriter h1,h2 {
 	width: auto;
 	display: inline-block;
 	
