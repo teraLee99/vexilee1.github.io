@@ -1,9 +1,10 @@
 /* Mobile Optimization */
 @media (max-width: 616px) { 
-   .typewriter {
-   font-size: 10px;
+   .typewriter h1{
+   font-size: 0.6rem;
     }
 }
+
 
 body {
 	max-width: 1280px;
