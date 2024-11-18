@@ -43,16 +43,17 @@ header {
 }
 
 .large {
-	font-size: 1.8rem;
+	font-size: 1.3rem;
 }
 
 .medium {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 }
 
 .typewriter h1 {
 	width: auto;
 	display: inline-block;
+	font-size: 1.3rem;
 	
 	overflow: hidden; /* Ensures the content is not revealed until the animation */
 	border-right: .15em solid transparent; /* The typwriter cursor */
