@@ -30,9 +30,9 @@ header {
 	display: inline-block;
 	padding: 0px;
 }
-.header-img {
-	height: 100%;
-	width: auto;
+img {
+	height: auto;
+	width: 100%;
 }
 
 
