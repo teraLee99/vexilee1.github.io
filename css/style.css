@@ -30,8 +30,9 @@ header {
 	display: inline-block;
 	padding: 0px;
 }
-img {
-	width: 100%;
+.responsive {
+  width: 100%;
+  height: auto;
 }
 
 .copyright {
