@@ -83,22 +83,6 @@ main {
 	box-sizing: border-box;
 }
 
-.wrapper {
-	
-}
-
-.wrapper .carousel {
-	white-space: nowrap;
-}
-
-.carousel img {
-	
-}
-
-.carousel img:first-child{
-	
-}
-
 .column {
 	float: left;
 	width: 25%;
