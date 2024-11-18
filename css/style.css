@@ -16,12 +16,7 @@ hl a:hover {
 p {
 	padding: 10px;
 	font-family: 'Crimson Text', serif;
-}
-.paragraph1 {
-	font-size: 1.3rem;
-}
-.paragraph2 {
-	font-size: 0.9rem;
+	font-size: 1.3em;
 }
 a {
 	font-family: 'Bona Nova', serif;
