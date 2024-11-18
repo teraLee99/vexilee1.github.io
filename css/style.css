@@ -94,7 +94,7 @@ main {
 .carousel img {
 	height: 340px;
 	object-fit: cover;
-	margin-left: 14px;
+	
 	width: calc(100% / 3);
 }
 
