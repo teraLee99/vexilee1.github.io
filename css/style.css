@@ -83,6 +83,16 @@ main {
 	box-sizing: border-box;
 }
 
+.wrapper .carousel {
+	white-space: nowrap;
+}
+
+.carousel img {
+	height: 340px;
+	object-fit: cover;
+	width: calc(100% / 3);
+}
+
 .column {
 	float: left;
 	width: 25%;
