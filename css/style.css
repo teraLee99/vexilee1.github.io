@@ -8,6 +8,8 @@
 body {
 	max-width: 1280px;
 	float: none;
+	display: flex;
+	flex-direction: column;
 	margin: auto;
 	padding: 0px;
 	min-height: 100vh;
@@ -76,7 +78,6 @@ main {
 	width: 100%;
 	float: center;
 	display: block;
-	position: relative;
 	min-height: 600px;
 	background-color: #fff;
 }
