@@ -107,7 +107,7 @@ header {
 	padding: 15px;
 	perspective: 100px;
 }
-img {
+.slide img {
 	width: 100%;
 	transition: 1s;
 }
