@@ -4,16 +4,18 @@ body {
 	padding: 0px;
 	min-height: 100vh;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h4, h5, h6 {
 	padding: 10px;
 	font-family: 'Bona Nova', serif;
 }
-.fade-in-text {
+h3 {
 	word-spacing: 3px;
 	letter-spacing: 0.2px;
 	line-height: 0.00001;
 	font-weight: 100;
 	font-family: 'Borel';
+}
+.fade-in-text {
 	animation: fadeIn 5s;
   	-webkit-animation: fadeIn 5s;
   	-moz-animation: fadeIn 5s;
