@@ -344,6 +344,7 @@ ul li.active {
 	outline: none;
 	border: none;
 	cursor: pointer;
+	text-decoration: none;
 }
 
 .btn1 img {
@@ -356,6 +357,7 @@ ul li.active {
 	width: 24px;
 	margin-left: 15px;
 }
+
 
 
 
