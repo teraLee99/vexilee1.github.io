@@ -256,54 +256,15 @@ much differently than I expected. But I hope to start getting out there more, to
 	
 </div>
 	
-	<div class="container">
 		<div class="pagination">
-			<button class="btn1" onclick="backBtn()"><img src="images/blog/arrow.png">prev</button>
-				<ul>
-					<li class="link active" value="1" onclick="activeLink()"><a href="blog.html">1</a></li>
-					<li class="link" value="2" onclick="activeLink()"><a href="page2.html">2</a></li>
-				</ul>
-			<button class="btn2" onclick="nextBtn()">next<a href="page2.html><img src="images/blog/arrow.png"></a></button> 
+			<a href=""><</a>
+			<a href="blog.html" class="active">1</a>
+			<a href="page2.html">2</a>
+			<a href="page2.html">></a>
 
 		</div>
 
-	</div>
 
-	<script>
-		let link = document.getElementsByClassName("link");
-		let currentValue = 1;
-		
-		function activeLink(){
-			for(l of link){
-				l.classList.remove("active");
-			}
-		event.target.classList.add("active");
-		currentValue = event.target.value;
-		}
-
-		function backBtn(){
-			if(currentValue > 1){
-				for(l of link){
-				l.classList.remove("active");
-				}
-				currentValue--;
-				link[currentValue-1].classList.add("active");
-			}
-
-		}
-
-		function nextBtn(){
-			if(currentValue < 2){
-				for(l of link){
-				l.classList.remove("active");
-				}
-				currentValue++;
-				link[currentValue-1].classList.add("active");
-			}
-
-		}
-		
-	</script>
 
 
 	<footer>
@@ -335,6 +296,7 @@ much differently than I expected. But I hope to start getting out there more, to
 		</div>
 	
 </body>
+
 
 
 
