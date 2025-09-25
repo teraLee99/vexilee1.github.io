@@ -329,7 +329,7 @@ ul li.active {
 	
 }
 
-.btn1, btn2 {
+.btn1, .btn2 {
 	display: inline-flex;
 	align-items: center;
 	font-size: 22px;
@@ -351,6 +351,7 @@ ul li.active {
 	width: 24px;
 	margin-left: 15px;
 }
+
 
 
 
