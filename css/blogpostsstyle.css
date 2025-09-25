@@ -302,6 +302,10 @@ footer {
 	border-radius: 6px;
 }
 
+.pagnation a {
+	text-decoration: none;
+}
+
 ul {
 	margin: 20px 30px;
 }
@@ -352,6 +356,7 @@ ul li.active {
 	width: 24px;
 	margin-left: 15px;
 }
+
 
 
 
