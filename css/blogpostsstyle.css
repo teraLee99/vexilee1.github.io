@@ -254,6 +254,7 @@ footer {
 }
 .left-footer a {
 	color: #e8e8e8;
+	font-size: 1.3em;
 }
 .left-footer a:hover {
 	color: #ff7f7f;
@@ -351,6 +352,7 @@ ul li.active {
 	width: 24px;
 	margin-left: 15px;
 }
+
 
 
 
