@@ -285,7 +285,12 @@ footer {
 /* Pagination */
 
 .pagination {
-	
+	max-width: 1280px;
+	width: 60%;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	float: left;
 }
 
 .pagination a {
@@ -298,6 +303,7 @@ footer {
 .pagination a.active {
 	background-color: #ff7f7f;
 }
+
 
 
 
