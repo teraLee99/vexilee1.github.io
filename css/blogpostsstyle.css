@@ -306,6 +306,11 @@ footer {
 	background-color: #ff7f7f;
 }
 
+.pagination a:hover {
+	color:#ff7f7f;
+}
+
+
 
 
 
