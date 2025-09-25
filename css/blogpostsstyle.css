@@ -286,8 +286,7 @@ footer {
 
 .pagination {
 	display: inline-block;
-	max-width: 1280px;
-	width: 60%;
+	width: 30%;
 	text-align: center;
 	border: 3px solid #888;
 	margin-bottom: 20px;
@@ -309,6 +308,7 @@ footer {
 .pagination a:hover {
 	color: #888;
 }
+
 
 
 
