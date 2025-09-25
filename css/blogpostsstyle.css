@@ -300,6 +300,7 @@ footer {
 	text-decoration: none;
 	padding: 8px 15px;
 	display: inline-block;
+	font-weight: bold;
 }
 
 .pagination a.active {
@@ -307,8 +308,9 @@ footer {
 }
 
 .pagination a:hover {
-	color:#ff7f7f;
+	color: #888;
 }
+
 
 
 
