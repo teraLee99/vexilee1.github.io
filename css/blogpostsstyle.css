@@ -285,7 +285,7 @@ footer {
 /* Pagination */
 
 .pagination {
-	max-width: 500px;
+	max-width: 900px;
 	display: block;
 	text-align: center;
 	float: left;
@@ -305,6 +305,7 @@ footer {
 .pagination a.active {
 	background-color: #ff7f7f;
 }
+
 
 
 
